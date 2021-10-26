@@ -51,10 +51,6 @@ Please try to follow these guidelines:
 
    - [ ] The above 2 commands will synchronize your forked version of the project with the actual repository.
 
-5. Create a branch with your username.
+5. Commit and push the code to YOUR fork.
 
-6. Make the changes in your branch. For eg. You're creating a navbar using ReactJS and your username is xyz so you've to follow the path /ReactJS/Navbar/xyz/[YOUR_REACT_FILE] and same goes with others.
-
-7. Commit and push the code to YOUR fork.
-
-8. Create a pull request to have the changes merged into the origin.
+6. Create a pull request to have the changes merged into the origin.
