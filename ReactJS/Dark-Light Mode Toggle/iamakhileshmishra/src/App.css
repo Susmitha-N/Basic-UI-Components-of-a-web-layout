@@ -1,0 +1,19 @@
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#000000;
+    
+}
+body.dark{
+    --primary-color:black;
+    --secondary-color:#edf2fc;
+}
+body.light{
+    --secondary-color:black;
+    --primary-color:#edf2fc;
+}
+body {
+    padding: 25px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 25px;
+}
