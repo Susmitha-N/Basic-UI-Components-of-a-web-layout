@@ -1,0 +1,37 @@
+html {
+    background: linear-gradient(aqua, cyan, darkturquoise, darkcyan, darkslategrey, black) fixed;
+    font: Helvetica, Georgia, Verdana, Arial;
+}
+
+.container {
+  max-width: 800px;
+  height: 320px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.skills {
+  margin: 0 0 30px 0;
+  padding: 0;
+  height: 30px;
+  width: calc(100% - 30px);
+  color: white;
+  position: relative;
+  transition: width 300ms ease-in-out;
+  .collapsed & {
+    width: 0 !important;
+  }
+ }
+li {
+    height: 25px;
+    display: inline-block;
+    padding: 0;
+}
+span {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+
+}
