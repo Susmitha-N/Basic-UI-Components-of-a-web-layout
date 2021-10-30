@@ -1,0 +1,74 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
+:root {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #121212;
+}
+
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fdfff2;
+  --clr-primary: #fdfff2;
+}
+
+.ligh-theme {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: lightgrey;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+  background: var(--clr-bcg);
+  color: var(--clr-font);
+  line-height: 1.5;
+  font-size: 0.9rem;
+  transition: all 0.5s linear;
+}
+
+/*
+=============== 
+Navbar
+===============
+*/
+.container {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background: var(--clr-primary);
+  color: var(--clr-bcg);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: capitalize;
+  transition: all 0.5s linear;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
